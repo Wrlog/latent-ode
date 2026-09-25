@@ -1,0 +1,4 @@
+# Only what the dashboard build needs (used by .github/workflows/pages.yml).
+numpy==2.5.3
+pandas==3.0.6
+plotly==7.1.0
