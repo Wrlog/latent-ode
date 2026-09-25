@@ -1,0 +1,48 @@
+{
+  "quick": false,
+  "python": "3.12.10",
+  "torch": "2.14.0+cpu",
+  "sizes": {
+    "clean": {
+      "train": 300,
+      "val": 60,
+      "test": 120,
+      "blq_share": 0.0
+    },
+    "doses": {
+      "train": 300,
+      "val": 60,
+      "test": 120,
+      "blq_share": 0.008823529411764706
+    },
+    "ada": {
+      "train": 300,
+      "val": 60,
+      "test": 120,
+      "blq_share": 0.026041666666666668,
+      "ada_share": 0.4041666666666667
+    }
+  },
+  "train_seconds": {
+    "clean": 114.3,
+    "doses": 105.3,
+    "ada": 117.6
+  },
+  "epochs": {
+    "clean": 148,
+    "doses": 135,
+    "ada": 151
+  },
+  "train_wall_seconds": 121.7,
+  "poppk_seconds": {
+    "clean": 2.2,
+    "doses": 2.3,
+    "ada": 3.5
+  },
+  "eval_seconds": {
+    "clean": 4.4,
+    "doses": 4.7,
+    "ada": 22.8
+  },
+  "total_seconds": 165.0
+}

@@ -1,0 +1,10 @@
+# Versions used to produce the results in this repo (Python 3.12.10, Windows, CPU).
+# Install PyTorch from the CPU index first if you don't want the CUDA build:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+matplotlib==3.11.2
+seaborn==0.13.2
+torch==2.14.0
+pytest==9.1.1

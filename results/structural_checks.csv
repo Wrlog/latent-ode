@@ -1,0 +1,18 @@
+dataset,check,value,detail,passed
+clean,positivity,0.37660902738571167,smallest prediction on a 6-hour grid (mg/L),True
+clean,determinism,8.612624546877612e-08,max difference between repeat calls / batch sizes,True
+clean,one peak per dose,1.0,share of patient-intervals with exactly one peak,True
+clean,dose proportionality,1.104522415515735,median fold deviation of C(2D)/C(D) from 2,False
+clean,grid invariance,0.002435029788509829,99th percentile |change in log C| with a 12-hour grid added,True
+doses,positivity,0.5780596137046814,smallest prediction on a 6-hour grid (mg/L),True
+doses,determinism,5.60412898309437e-08,max difference between repeat calls / batch sizes,True
+doses,one peak per dose,1.0,share of patient-intervals with exactly one peak,True
+doses,dose proportionality,1.028555339479945,median fold deviation of C(2D)/C(D) from 2,True
+doses,grid invariance,0.008680181047967302,99th percentile |change in log C| with a 12-hour grid added,True
+doses,unseen interval (k=0),1.146257085379075,median fold error 1.224 on q35d vs 1.193 on q56d (ratio of log errors),True
+doses,unseen interval (k=4),1.1101197411975954,median fold error 1.211 on q35d vs 1.188 on q56d (ratio of log errors),True
+ada,positivity,0.5742784142494202,smallest prediction on a 6-hour grid (mg/L),True
+ada,determinism,5.3555755830103635e-08,max difference between repeat calls / batch sizes,True
+ada,one peak per dose,1.0,share of patient-intervals with exactly one peak,True
+ada,dose proportionality,1.0396132536387457,median fold deviation of C(2D)/C(D) from 2,True
+ada,grid invariance,0.009886989869756124,99th percentile |change in log C| with a 12-hour grid added,True

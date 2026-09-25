@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latent-ode-pk"
+version = "0.1.0"
+description = "A latent neural ODE learning Drug X pharmacokinetics from simulated data with a known true model (research and teaching only)"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Wen Rui Tan" }]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "torch>=2.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
