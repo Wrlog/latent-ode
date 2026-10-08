@@ -10,9 +10,7 @@ two-compartment popPK model and forecast each patient by MAP Bayesian estimation
 levels.
 
 Everything here is simulated from a made-up drug ("Drug X") by code in this repo. It's a research and
-teaching example only. Nothing in it is validated, and it must not be used for patient care. It follows
-the general approach of my PhD work on model-informed precision dosing; the real data and results from
-that work aren't public.
+teaching example only. Nothing in it is validated, and it must not be used for patient care.
 
 Results dashboard: https://wrlog.github.io/latent-ode/ (interactive charts of every result file:
 forecast error by dataset, example profiles, the ADA split, covariate recovery, structural checks and
